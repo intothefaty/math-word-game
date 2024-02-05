@@ -97,7 +97,7 @@ void soru (int harf){
         do {
             repeat=0;
             printf("%s\n",star);
-            printf("cevaplamak için 1 harf almak için 2 giriniz : ");
+            printf("cevaplamak için 1 harf almak için 2 giriniz (Lütfen sayı giriniz) : ");
             scanf("%d",&choise); //kullanıcıdan cevaplamak ya da harf almak için girdi ister
             printf("\n");
             if (choise==1) {

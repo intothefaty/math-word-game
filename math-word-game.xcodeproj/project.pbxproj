@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		6D885CFA2B715DC3006F1E3D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6D885CF92B715DC3006F1E3D /* main.c */; };
+		6D885D082B715E82006F1E3D /* MathGameTimeOn.c in Sources */ = {isa = PBXBuildFile; fileRef = 6D885D022B715E82006F1E3D /* MathGameTimeOn.c */; };
+		6D885D092B715E82006F1E3D /* WordLib.c in Sources */ = {isa = PBXBuildFile; fileRef = 6D885D032B715E82006F1E3D /* WordLib.c */; };
+		6D885D0A2B715E82006F1E3D /* WordGame.c in Sources */ = {isa = PBXBuildFile; fileRef = 6D885D052B715E82006F1E3D /* WordGame.c */; };
+		6D885D0B2B715E82006F1E3D /* MathGame.c in Sources */ = {isa = PBXBuildFile; fileRef = 6D885D072B715E82006F1E3D /* MathGame.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		6D885CF62B715DC3006F1E3D /* math-word-game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "math-word-game"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D885CF92B715DC3006F1E3D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		6D885D002B715E82006F1E3D /* MathGameTimeOn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathGameTimeOn.h; sourceTree = "<group>"; };
+		6D885D012B715E82006F1E3D /* MathGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathGame.h; sourceTree = "<group>"; };
+		6D885D022B715E82006F1E3D /* MathGameTimeOn.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MathGameTimeOn.c; sourceTree = "<group>"; };
+		6D885D032B715E82006F1E3D /* WordLib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = WordLib.c; sourceTree = "<group>"; };
+		6D885D042B715E82006F1E3D /* WordGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordGame.h; sourceTree = "<group>"; };
+		6D885D052B715E82006F1E3D /* WordGame.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = WordGame.c; sourceTree = "<group>"; };
+		6D885D062B715E82006F1E3D /* WordLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordLib.h; sourceTree = "<group>"; };
+		6D885D072B715E82006F1E3D /* MathGame.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MathGame.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				6D885CF92B715DC3006F1E3D /* main.c */,
+				6D885D072B715E82006F1E3D /* MathGame.c */,
+				6D885D012B715E82006F1E3D /* MathGame.h */,
+				6D885D022B715E82006F1E3D /* MathGameTimeOn.c */,
+				6D885D002B715E82006F1E3D /* MathGameTimeOn.h */,
+				6D885D052B715E82006F1E3D /* WordGame.c */,
+				6D885D042B715E82006F1E3D /* WordGame.h */,
+				6D885D032B715E82006F1E3D /* WordLib.c */,
+				6D885D062B715E82006F1E3D /* WordLib.h */,
 			);
 			path = "math-word-game";
 			sourceTree = "<group>";
@@ -120,6 +140,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D885CFA2B715DC3006F1E3D /* main.c in Sources */,
+				6D885D0A2B715E82006F1E3D /* WordGame.c in Sources */,
+				6D885D082B715E82006F1E3D /* MathGameTimeOn.c in Sources */,
+				6D885D092B715E82006F1E3D /* WordLib.c in Sources */,
+				6D885D0B2B715E82006F1E3D /* MathGame.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
